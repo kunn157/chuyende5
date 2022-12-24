@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.navbar {
+  background: black !important;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.content {
+    background: black;
+}
+.box-header {
+  color: white;
+  background: black;
+}
+.small-box {
+  background: #1B1C1F !important;
+}
+.sidebarCollapsed {
+  background: #1B1C1F !important;
+}
+.box-title {
+    font-size: 12px !important;
+    font-family: 'Roboto Mono', monospace !important; 
+}
+#top10StatesBar, #top10StatesBar .rChart {
+    height: 200px;
+    width: 1000px;
+}
+#top10CitiesBar, #top10CitiesBar .rChart {
+    height: 200px;
+    width: 1000px;
+}
+#top10StatesTS, #top10StatesTS .rChart {
+    height: 400px;
+    width: 700px;
+}
+#top10CitiesTS, #top10CitiesTS .rChart {
+    height: 400px;
+    width: 700px;
+}
+#topByGrowth, #topByGrowth .rChart {
+    height: 400px;
+    width: 1200px;
+}
+#topMarketsTS, #topMarketsTS .rChart {
+    height: 650px;
+    width: 1200px;
+}
+#forecastSummaryPlot, #forecastSummaryPlot .rChart {
+    height: 500px;
+    width: 1000px;
+}
